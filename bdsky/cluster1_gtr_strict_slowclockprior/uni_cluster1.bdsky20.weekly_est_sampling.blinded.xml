@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<beast beautitemplate='Standard' 
+	   beautistatus='allowLinking' 
+	   namespace="beast.core:beast.evolution.alignment
+	             :beast.evolution.tree.coalescent
+	             :beast.core.util
+	             :beast.evolution.nuc
+	             :beast.evolution.operators
+	             :beast.evolution.sitemodel
+	             :beast.evolution.substitutionmodel
+	             :beast.evolution.likelihood
+                 :skylinetools.parameter
+	             :skylinetools.util"  
+	   required="" version="2.6">
+       
+
+    <!-- Cluster 1 genomes (354 sequences) -->    
+    <!-- SEQUENCES REMOVED TO COMPLY WITH GISAID TERMS OF USE -->
+	<data id="uni_cluster1" spec="Alignment" name="alignment">
+        <sequence id="seq_CAMB-1B7D2E" spec="Sequence" taxon="CAMB-1B7D2E" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B7D5B" spec="Sequence" taxon="CAMB-1B7D5B" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B7D79" spec="Sequence" taxon="CAMB-1B7D79" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B7D97" spec="Sequence" taxon="CAMB-1B7D97" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B7DF1" spec="Sequence" taxon="CAMB-1B7DF1" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B7E1C" spec="Sequence" taxon="CAMB-1B7E1C" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B7E2B" spec="Sequence" taxon="CAMB-1B7E2B" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B7E67" spec="Sequence" taxon="CAMB-1B7E67" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B7E94" spec="Sequence" taxon="CAMB-1B7E94" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B7EB2" spec="Sequence" taxon="CAMB-1B7EB2" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B7F0A" spec="Sequence" taxon="CAMB-1B7F0A" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B7F19" spec="Sequence" taxon="CAMB-1B7F19" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B7F28" spec="Sequence" taxon="CAMB-1B7F28" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B7F82" spec="Sequence" taxon="CAMB-1B7F82" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B7F91" spec="Sequence" taxon="CAMB-1B7F91" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B7FCE" spec="Sequence" taxon="CAMB-1B7FCE" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B7FFB" spec="Sequence" taxon="CAMB-1B7FFB" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B8015" spec="Sequence" taxon="CAMB-1B8015" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B8024" spec="Sequence" taxon="CAMB-1B8024" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B8051" spec="Sequence" taxon="CAMB-1B8051" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B8060" spec="Sequence" taxon="CAMB-1B8060" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B807F" spec="Sequence" taxon="CAMB-1B807F" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B808E" spec="Sequence" taxon="CAMB-1B808E" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B809D" spec="Sequence" taxon="CAMB-1B809D" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B80AC" spec="Sequence" taxon="CAMB-1B80AC" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B80CA" spec="Sequence" taxon="CAMB-1B80CA" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B80D9" spec="Sequence" taxon="CAMB-1B80D9" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B80F7" spec="Sequence" taxon="CAMB-1B80F7" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B8121" spec="Sequence" taxon="CAMB-1B8121" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B814F" spec="Sequence" taxon="CAMB-1B814F" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B816D" spec="Sequence" taxon="CAMB-1B816D" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B818B" spec="Sequence" taxon="CAMB-1B818B" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B819A" spec="Sequence" taxon="CAMB-1B819A" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B81A9" spec="Sequence" taxon="CAMB-1B81A9" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B81B8" spec="Sequence" taxon="CAMB-1B81B8" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B81C7" spec="Sequence" taxon="CAMB-1B81C7" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B81E5" spec="Sequence" taxon="CAMB-1B81E5" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B81F4" spec="Sequence" taxon="CAMB-1B81F4" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B821F" spec="Sequence" taxon="CAMB-1B821F" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B823D" spec="Sequence" taxon="CAMB-1B823D" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B824C" spec="Sequence" taxon="CAMB-1B824C" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B8279" spec="Sequence" taxon="CAMB-1B8279" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B8288" spec="Sequence" taxon="CAMB-1B8288" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B8297" spec="Sequence" taxon="CAMB-1B8297" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B82A6" spec="Sequence" taxon="CAMB-1B82A6" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B82F1" spec="Sequence" taxon="CAMB-1B82F1" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B830D" spec="Sequence" taxon="CAMB-1B830D" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B8349" spec="Sequence" taxon="CAMB-1B8349" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B8385" spec="Sequence" taxon="CAMB-1B8385" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B83A3" spec="Sequence" taxon="CAMB-1B83A3" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B83D0" spec="Sequence" taxon="CAMB-1B83D0" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B8455" spec="Sequence" taxon="CAMB-1B8455" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B84A0" spec="Sequence" taxon="CAMB-1B84A0" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B84EC" spec="Sequence" taxon="CAMB-1B84EC" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B84FB" spec="Sequence" taxon="CAMB-1B84FB" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B8516" spec="Sequence" taxon="CAMB-1B8516" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B8525" spec="Sequence" taxon="CAMB-1B8525" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B8561" spec="Sequence" taxon="CAMB-1B8561" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B8FBE" spec="Sequence" taxon="CAMB-1B8FBE" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B8FCD" spec="Sequence" taxon="CAMB-1B8FCD" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B8FDC" spec="Sequence" taxon="CAMB-1B8FDC" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B8FEB" spec="Sequence" taxon="CAMB-1B8FEB" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B8FFA" spec="Sequence" taxon="CAMB-1B8FFA" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9005" spec="Sequence" taxon="CAMB-1B9005" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9014" spec="Sequence" taxon="CAMB-1B9014" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9023" spec="Sequence" taxon="CAMB-1B9023" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9032" spec="Sequence" taxon="CAMB-1B9032" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9041" spec="Sequence" taxon="CAMB-1B9041" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9050" spec="Sequence" taxon="CAMB-1B9050" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B906F" spec="Sequence" taxon="CAMB-1B906F" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B907E" spec="Sequence" taxon="CAMB-1B907E" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B908D" spec="Sequence" taxon="CAMB-1B908D" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B909C" spec="Sequence" taxon="CAMB-1B909C" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B90AB" spec="Sequence" taxon="CAMB-1B90AB" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B90BA" spec="Sequence" taxon="CAMB-1B90BA" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B90C9" spec="Sequence" taxon="CAMB-1B90C9" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B90D8" spec="Sequence" taxon="CAMB-1B90D8" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B90E7" spec="Sequence" taxon="CAMB-1B90E7" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9102" spec="Sequence" taxon="CAMB-1B9102" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9111" spec="Sequence" taxon="CAMB-1B9111" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B913F" spec="Sequence" taxon="CAMB-1B913F" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B914E" spec="Sequence" taxon="CAMB-1B914E" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B915D" spec="Sequence" taxon="CAMB-1B915D" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B916C" spec="Sequence" taxon="CAMB-1B916C" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B917B" spec="Sequence" taxon="CAMB-1B917B" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B918A" spec="Sequence" taxon="CAMB-1B918A" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9199" spec="Sequence" taxon="CAMB-1B9199" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B91A8" spec="Sequence" taxon="CAMB-1B91A8" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B91C6" spec="Sequence" taxon="CAMB-1B91C6" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9CB6" spec="Sequence" taxon="CAMB-1B9CB6" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9CD4" spec="Sequence" taxon="CAMB-1B9CD4" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9CE3" spec="Sequence" taxon="CAMB-1B9CE3" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9D0E" spec="Sequence" taxon="CAMB-1B9D0E" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9D1D" spec="Sequence" taxon="CAMB-1B9D1D" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9D2C" spec="Sequence" taxon="CAMB-1B9D2C" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9D3B" spec="Sequence" taxon="CAMB-1B9D3B" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9D68" spec="Sequence" taxon="CAMB-1B9D68" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9D77" spec="Sequence" taxon="CAMB-1B9D77" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9D86" spec="Sequence" taxon="CAMB-1B9D86" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9D95" spec="Sequence" taxon="CAMB-1B9D95" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9DB3" spec="Sequence" taxon="CAMB-1B9DB3" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9DC2" spec="Sequence" taxon="CAMB-1B9DC2" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9DD1" spec="Sequence" taxon="CAMB-1B9DD1" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9DE0" spec="Sequence" taxon="CAMB-1B9DE0" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9DFF" spec="Sequence" taxon="CAMB-1B9DFF" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9E1A" spec="Sequence" taxon="CAMB-1B9E1A" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9E29" spec="Sequence" taxon="CAMB-1B9E29" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9E56" spec="Sequence" taxon="CAMB-1B9E56" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9E65" spec="Sequence" taxon="CAMB-1B9E65" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9E74" spec="Sequence" taxon="CAMB-1B9E74" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9E83" spec="Sequence" taxon="CAMB-1B9E83" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9E92" spec="Sequence" taxon="CAMB-1B9E92" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9EA1" spec="Sequence" taxon="CAMB-1B9EA1" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9EB0" spec="Sequence" taxon="CAMB-1B9EB0" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9ECF" spec="Sequence" taxon="CAMB-1B9ECF" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9EDE" spec="Sequence" taxon="CAMB-1B9EDE" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9EFC" spec="Sequence" taxon="CAMB-1B9EFC" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9F08" spec="Sequence" taxon="CAMB-1B9F08" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9F26" spec="Sequence" taxon="CAMB-1B9F26" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9F35" spec="Sequence" taxon="CAMB-1B9F35" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9F62" spec="Sequence" taxon="CAMB-1B9F62" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9F9F" spec="Sequence" taxon="CAMB-1B9F9F" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9FAE" spec="Sequence" taxon="CAMB-1B9FAE" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9FCC" spec="Sequence" taxon="CAMB-1B9FCC" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9FDB" spec="Sequence" taxon="CAMB-1B9FDB" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1B9FF9" spec="Sequence" taxon="CAMB-1B9FF9" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BA004" spec="Sequence" taxon="CAMB-1BA004" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BA013" spec="Sequence" taxon="CAMB-1BA013" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BA022" spec="Sequence" taxon="CAMB-1BA022" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BA031" spec="Sequence" taxon="CAMB-1BA031" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BA040" spec="Sequence" taxon="CAMB-1BA040" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BA05F" spec="Sequence" taxon="CAMB-1BA05F" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BA06E" spec="Sequence" taxon="CAMB-1BA06E" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BA07D" spec="Sequence" taxon="CAMB-1BA07D" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BA0C8" spec="Sequence" taxon="CAMB-1BA0C8" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BA0E6" spec="Sequence" taxon="CAMB-1BA0E6" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BA101" spec="Sequence" taxon="CAMB-1BA101" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BA550" spec="Sequence" taxon="CAMB-1BA550" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BA875" spec="Sequence" taxon="CAMB-1BA875" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BA918" spec="Sequence" taxon="CAMB-1BA918" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BA927" spec="Sequence" taxon="CAMB-1BA927" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BA945" spec="Sequence" taxon="CAMB-1BA945" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BA954" spec="Sequence" taxon="CAMB-1BA954" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BA963" spec="Sequence" taxon="CAMB-1BA963" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BA972" spec="Sequence" taxon="CAMB-1BA972" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BA981" spec="Sequence" taxon="CAMB-1BA981" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BA9AF" spec="Sequence" taxon="CAMB-1BA9AF" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BA9BE" spec="Sequence" taxon="CAMB-1BA9BE" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BA9CD" spec="Sequence" taxon="CAMB-1BA9CD" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BA9EB" spec="Sequence" taxon="CAMB-1BA9EB" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BA9FA" spec="Sequence" taxon="CAMB-1BA9FA" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAA06" spec="Sequence" taxon="CAMB-1BAA06" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAA15" spec="Sequence" taxon="CAMB-1BAA15" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAA24" spec="Sequence" taxon="CAMB-1BAA24" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAA33" spec="Sequence" taxon="CAMB-1BAA33" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAA42" spec="Sequence" taxon="CAMB-1BAA42" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAA51" spec="Sequence" taxon="CAMB-1BAA51" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAA60" spec="Sequence" taxon="CAMB-1BAA60" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAA7F" spec="Sequence" taxon="CAMB-1BAA7F" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAA8E" spec="Sequence" taxon="CAMB-1BAA8E" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAA9D" spec="Sequence" taxon="CAMB-1BAA9D" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAAAC" spec="Sequence" taxon="CAMB-1BAAAC" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAACA" spec="Sequence" taxon="CAMB-1BAACA" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAAE8" spec="Sequence" taxon="CAMB-1BAAE8" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAB03" spec="Sequence" taxon="CAMB-1BAB03" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAB12" spec="Sequence" taxon="CAMB-1BAB12" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAB21" spec="Sequence" taxon="CAMB-1BAB21" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAB30" spec="Sequence" taxon="CAMB-1BAB30" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAB4F" spec="Sequence" taxon="CAMB-1BAB4F" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAB5E" spec="Sequence" taxon="CAMB-1BAB5E" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAB6D" spec="Sequence" taxon="CAMB-1BAB6D" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAB7C" spec="Sequence" taxon="CAMB-1BAB7C" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAB8B" spec="Sequence" taxon="CAMB-1BAB8B" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAB9A" spec="Sequence" taxon="CAMB-1BAB9A" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BABA9" spec="Sequence" taxon="CAMB-1BABA9" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BABC7" spec="Sequence" taxon="CAMB-1BABC7" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BABE5" spec="Sequence" taxon="CAMB-1BABE5" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAC00" spec="Sequence" taxon="CAMB-1BAC00" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAC2E" spec="Sequence" taxon="CAMB-1BAC2E" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAC3D" spec="Sequence" taxon="CAMB-1BAC3D" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAC4C" spec="Sequence" taxon="CAMB-1BAC4C" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAC6A" spec="Sequence" taxon="CAMB-1BAC6A" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAC79" spec="Sequence" taxon="CAMB-1BAC79" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAC88" spec="Sequence" taxon="CAMB-1BAC88" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BACA6" spec="Sequence" taxon="CAMB-1BACA6" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BACC4" spec="Sequence" taxon="CAMB-1BACC4" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BACE2" spec="Sequence" taxon="CAMB-1BACE2" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BACF1" spec="Sequence" taxon="CAMB-1BACF1" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAD0D" spec="Sequence" taxon="CAMB-1BAD0D" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAD1C" spec="Sequence" taxon="CAMB-1BAD1C" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAD3A" spec="Sequence" taxon="CAMB-1BAD3A" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAD49" spec="Sequence" taxon="CAMB-1BAD49" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAD58" spec="Sequence" taxon="CAMB-1BAD58" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAD67" spec="Sequence" taxon="CAMB-1BAD67" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAD76" spec="Sequence" taxon="CAMB-1BAD76" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAD85" spec="Sequence" taxon="CAMB-1BAD85" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAD94" spec="Sequence" taxon="CAMB-1BAD94" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BADA3" spec="Sequence" taxon="CAMB-1BADA3" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BADB2" spec="Sequence" taxon="CAMB-1BADB2" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BADC1" spec="Sequence" taxon="CAMB-1BADC1" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BADD0" spec="Sequence" taxon="CAMB-1BADD0" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BADEF" spec="Sequence" taxon="CAMB-1BADEF" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BADFE" spec="Sequence" taxon="CAMB-1BADFE" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAE0A" spec="Sequence" taxon="CAMB-1BAE0A" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAE19" spec="Sequence" taxon="CAMB-1BAE19" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAE28" spec="Sequence" taxon="CAMB-1BAE28" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAE37" spec="Sequence" taxon="CAMB-1BAE37" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAE46" spec="Sequence" taxon="CAMB-1BAE46" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAE55" spec="Sequence" taxon="CAMB-1BAE55" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAE64" spec="Sequence" taxon="CAMB-1BAE64" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAE73" spec="Sequence" taxon="CAMB-1BAE73" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAE91" spec="Sequence" taxon="CAMB-1BAE91" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAEA0" spec="Sequence" taxon="CAMB-1BAEA0" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAEBF" spec="Sequence" taxon="CAMB-1BAEBF" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAEDD" spec="Sequence" taxon="CAMB-1BAEDD" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAEEC" spec="Sequence" taxon="CAMB-1BAEEC" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAEFB" spec="Sequence" taxon="CAMB-1BAEFB" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAF07" spec="Sequence" taxon="CAMB-1BAF07" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAF16" spec="Sequence" taxon="CAMB-1BAF16" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAF25" spec="Sequence" taxon="CAMB-1BAF25" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAF34" spec="Sequence" taxon="CAMB-1BAF34" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAF43" spec="Sequence" taxon="CAMB-1BAF43" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAF52" spec="Sequence" taxon="CAMB-1BAF52" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAF61" spec="Sequence" taxon="CAMB-1BAF61" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAF70" spec="Sequence" taxon="CAMB-1BAF70" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAF8F" spec="Sequence" taxon="CAMB-1BAF8F" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAF9E" spec="Sequence" taxon="CAMB-1BAF9E" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAFAD" spec="Sequence" taxon="CAMB-1BAFAD" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAFBC" spec="Sequence" taxon="CAMB-1BAFBC" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAFCB" spec="Sequence" taxon="CAMB-1BAFCB" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAFDA" spec="Sequence" taxon="CAMB-1BAFDA" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAFE9" spec="Sequence" taxon="CAMB-1BAFE9" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BAFF8" spec="Sequence" taxon="CAMB-1BAFF8" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB003" spec="Sequence" taxon="CAMB-1BB003" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB012" spec="Sequence" taxon="CAMB-1BB012" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB021" spec="Sequence" taxon="CAMB-1BB021" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB04F" spec="Sequence" taxon="CAMB-1BB04F" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB05E" spec="Sequence" taxon="CAMB-1BB05E" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB06D" spec="Sequence" taxon="CAMB-1BB06D" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB08B" spec="Sequence" taxon="CAMB-1BB08B" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB0A9" spec="Sequence" taxon="CAMB-1BB0A9" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB0B8" spec="Sequence" taxon="CAMB-1BB0B8" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB0C7" spec="Sequence" taxon="CAMB-1BB0C7" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB0D6" spec="Sequence" taxon="CAMB-1BB0D6" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB0E5" spec="Sequence" taxon="CAMB-1BB0E5" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB0F4" spec="Sequence" taxon="CAMB-1BB0F4" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB100" spec="Sequence" taxon="CAMB-1BB100" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB12E" spec="Sequence" taxon="CAMB-1BB12E" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB13D" spec="Sequence" taxon="CAMB-1BB13D" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB14C" spec="Sequence" taxon="CAMB-1BB14C" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB15B" spec="Sequence" taxon="CAMB-1BB15B" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB179" spec="Sequence" taxon="CAMB-1BB179" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB1A6" spec="Sequence" taxon="CAMB-1BB1A6" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB1B5" spec="Sequence" taxon="CAMB-1BB1B5" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB1C4" spec="Sequence" taxon="CAMB-1BB1C4" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB1D3" spec="Sequence" taxon="CAMB-1BB1D3" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB1E2" spec="Sequence" taxon="CAMB-1BB1E2" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB1F1" spec="Sequence" taxon="CAMB-1BB1F1" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB20D" spec="Sequence" taxon="CAMB-1BB20D" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB21C" spec="Sequence" taxon="CAMB-1BB21C" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB22B" spec="Sequence" taxon="CAMB-1BB22B" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB23A" spec="Sequence" taxon="CAMB-1BB23A" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB249" spec="Sequence" taxon="CAMB-1BB249" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB267" spec="Sequence" taxon="CAMB-1BB267" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB276" spec="Sequence" taxon="CAMB-1BB276" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB285" spec="Sequence" taxon="CAMB-1BB285" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB294" spec="Sequence" taxon="CAMB-1BB294" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB2B2" spec="Sequence" taxon="CAMB-1BB2B2" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB2D0" spec="Sequence" taxon="CAMB-1BB2D0" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB2FE" spec="Sequence" taxon="CAMB-1BB2FE" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BB9CC" spec="Sequence" taxon="CAMB-1BB9CC" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBA05" spec="Sequence" taxon="CAMB-1BBA05" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBAD8" spec="Sequence" taxon="CAMB-1BBAD8" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBAF6" spec="Sequence" taxon="CAMB-1BBAF6" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBB11" spec="Sequence" taxon="CAMB-1BBB11" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBB20" spec="Sequence" taxon="CAMB-1BBB20" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBB4E" spec="Sequence" taxon="CAMB-1BBB4E" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBB6C" spec="Sequence" taxon="CAMB-1BBB6C" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBB7B" spec="Sequence" taxon="CAMB-1BBB7B" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBB8A" spec="Sequence" taxon="CAMB-1BBB8A" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBB99" spec="Sequence" taxon="CAMB-1BBB99" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBBA8" spec="Sequence" taxon="CAMB-1BBBA8" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBBB7" spec="Sequence" taxon="CAMB-1BBBB7" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBBC6" spec="Sequence" taxon="CAMB-1BBBC6" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBBE4" spec="Sequence" taxon="CAMB-1BBBE4" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBBF3" spec="Sequence" taxon="CAMB-1BBBF3" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBC0F" spec="Sequence" taxon="CAMB-1BBC0F" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBC1E" spec="Sequence" taxon="CAMB-1BBC1E" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBC2D" spec="Sequence" taxon="CAMB-1BBC2D" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBC3C" spec="Sequence" taxon="CAMB-1BBC3C" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBC4B" spec="Sequence" taxon="CAMB-1BBC4B" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBC5A" spec="Sequence" taxon="CAMB-1BBC5A" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBC78" spec="Sequence" taxon="CAMB-1BBC78" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBC87" spec="Sequence" taxon="CAMB-1BBC87" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBC96" spec="Sequence" taxon="CAMB-1BBC96" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBCA5" spec="Sequence" taxon="CAMB-1BBCA5" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBCC3" spec="Sequence" taxon="CAMB-1BBCC3" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBCE1" spec="Sequence" taxon="CAMB-1BBCE1" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBCF0" spec="Sequence" taxon="CAMB-1BBCF0" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBD0C" spec="Sequence" taxon="CAMB-1BBD0C" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBD48" spec="Sequence" taxon="CAMB-1BBD48" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBD57" spec="Sequence" taxon="CAMB-1BBD57" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBD66" spec="Sequence" taxon="CAMB-1BBD66" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBD75" spec="Sequence" taxon="CAMB-1BBD75" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBD93" spec="Sequence" taxon="CAMB-1BBD93" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBDA2" spec="Sequence" taxon="CAMB-1BBDA2" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBDB1" spec="Sequence" taxon="CAMB-1BBDB1" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBDC0" spec="Sequence" taxon="CAMB-1BBDC0" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBDDF" spec="Sequence" taxon="CAMB-1BBDDF" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBDEE" spec="Sequence" taxon="CAMB-1BBDEE" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBDFD" spec="Sequence" taxon="CAMB-1BBDFD" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBE18" spec="Sequence" taxon="CAMB-1BBE18" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBE36" spec="Sequence" taxon="CAMB-1BBE36" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBE45" spec="Sequence" taxon="CAMB-1BBE45" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBE54" spec="Sequence" taxon="CAMB-1BBE54" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBE72" spec="Sequence" taxon="CAMB-1BBE72" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBE81" spec="Sequence" taxon="CAMB-1BBE81" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBE90" spec="Sequence" taxon="CAMB-1BBE90" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BBEAF" spec="Sequence" taxon="CAMB-1BBEAF" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BC925" spec="Sequence" taxon="CAMB-1BC925" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BC943" spec="Sequence" taxon="CAMB-1BC943" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BC961" spec="Sequence" taxon="CAMB-1BC961" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BD4BA" spec="Sequence" taxon="CAMB-1BD4BA" totalcount="4" value="-"/>
+        <sequence id="seq_CAMB-1BD5B7" spec="Sequence" taxon="CAMB-1BD5B7" totalcount="4" value="-"/>
+        <sequence id="seq_CAMC-B08C36" spec="Sequence" taxon="CAMC-B08C36" totalcount="4" value="-"/>
+        <sequence id="seq_CAMC-B08CFA" spec="Sequence" taxon="CAMC-B08CFA" totalcount="4" value="-"/>
+        <sequence id="seq_CAMC-B09AE0" spec="Sequence" taxon="CAMC-B09AE0" totalcount="4" value="-"/>
+        <sequence id="seq_CAMC-B09B56" spec="Sequence" taxon="CAMC-B09B56" totalcount="4" value="-"/>
+        <sequence id="seq_CAMC-B0B143" spec="Sequence" taxon="CAMC-B0B143" totalcount="4" value="-"/>
+        <sequence id="seq_CAMC-B0CDA8" spec="Sequence" taxon="CAMC-B0CDA8" totalcount="4" value="-"/>
+        <sequence id="seq_CAMC-B1FF33" spec="Sequence" taxon="CAMC-B1FF33" totalcount="4" value="-"/>
+        <sequence id="seq_CAMC-B217BE" spec="Sequence" taxon="CAMC-B217BE" totalcount="4" value="-"/>
+        <sequence id="seq_CAMC-B22911" spec="Sequence" taxon="CAMC-B22911" totalcount="4" value="-"/>
+        <sequence id="seq_CAMC-B34AEC" spec="Sequence" taxon="CAMC-B34AEC" totalcount="4" value="-"/>
+        <sequence id="seq_CAMC-B51E1A" spec="Sequence" taxon="CAMC-B51E1A" totalcount="4" value="-"/>
+        <sequence id="seq_CAMC-B53276" spec="Sequence" taxon="CAMC-B53276" totalcount="4" value="-"/>
+        <sequence id="seq_CAMC-B543CD" spec="Sequence" taxon="CAMC-B543CD" totalcount="4" value="-"/>
+        <sequence id="seq_CAMC-B543DC" spec="Sequence" taxon="CAMC-B543DC" totalcount="4" value="-"/>
+        <sequence id="seq_CAMC-B77458" spec="Sequence" taxon="CAMC-B77458" totalcount="4" value="-"/>
+        <sequence id="seq_CAMC-B78C13" spec="Sequence" taxon="CAMC-B78C13" totalcount="4" value="-"/>
+        <sequence id="seq_CAMC-B78DE3" spec="Sequence" taxon="CAMC-B78DE3" totalcount="4" value="-"/>
+        <sequence id="seq_CAMC-B79BD9" spec="Sequence" taxon="CAMC-B79BD9" totalcount="4" value="-"/>
+        <sequence id="seq_CAMC-B7A6E6" spec="Sequence" taxon="CAMC-B7A6E6" totalcount="4" value="-"/>
+        <sequence id="seq_CAMC-B7B427" spec="Sequence" taxon="CAMC-B7B427" totalcount="4" value="-"/>
+        <sequence id="seq_CAMC-B98E53" spec="Sequence" taxon="CAMC-B98E53" totalcount="4" value="-"/>
+        <sequence id="seq_CAMC-B98E62" spec="Sequence" taxon="CAMC-B98E62" totalcount="4" value="-"/>
+        <sequence id="seq_CAMC-B99A9A" spec="Sequence" taxon="CAMC-B99A9A" totalcount="4" value="-"/>
+        <sequence id="seq_CAMC-BC06E1" spec="Sequence" taxon="CAMC-BC06E1" totalcount="4" value="-"/>
+        <sequence id="seq_CAMC-BC08EB" spec="Sequence" taxon="CAMC-BC08EB" totalcount="4" value="-"/>
+        <sequence id="seq_MILK-AC7733" spec="Sequence" taxon="MILK-AC7733" totalcount="4" value="-"/>
+        <sequence id="seq_MILK-ACE796" spec="Sequence" taxon="MILK-ACE796" totalcount="4" value="-"/>
+        <sequence id="seq_UC00000204"  spec="Sequence" taxon="UC00000204"  totalcount="4" value="-"/>
+        <sequence id="seq_UC00002529"  spec="Sequence" taxon="UC00002529"  totalcount="4" value="-"/>
+        <sequence id="seq_UC00002669"  spec="Sequence" taxon="UC00002669"  totalcount="4" value="-"/>
+    </data>
+
+         
+
+    <map name="Uniform" >beast.math.distributions.Uniform</map>
+    <map name="Exponential" >beast.math.distributions.Exponential</map>
+    <map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+    <map name="Normal" >beast.math.distributions.Normal</map>
+    <map name="Beta" >beast.math.distributions.Beta</map>
+    <map name="Gamma" >beast.math.distributions.Gamma</map>
+    <map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+    <map name="prior" >beast.math.distributions.Prior</map>
+    <map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+    <map name="OneOnX" >beast.math.distributions.OneOnX</map>
+
+
+	<!-- Select a slice of the sampling proportion to apply a prior to (can also use ExcludablePrior) -->
+	<function spec="beast.core.util.Slice" id="samplingProportionSlice.s:uni_cluster1" arg="@samplingProportion_BDSKY_Serial.t:uni_cluster1_" index="1" count="9"/>
+    
+    <run id="mcmc" spec="MCMC" chainLength="200000000">
+            
+        <state id="state" spec="State" storeEvery="5000000">
+                  
+        	<!-- Cluster 1 tree !-->
+            <tree id="Tree.t:uni_cluster1" spec="beast.evolution.tree.Tree" name="stateNode">
+                <trait id="dateTrait.t:uni_cluster1" spec="beast.evolution.tree.TraitSet" dateFormat="yyyy-M-dd" traitname="date" value="CAMC-B0B143=2020-10-30,CAMB-1BAAAC=2020-11-12,CAMB-1BBB20=2020-11-19,CAMB-1BBD48=2020-11-13,CAMB-1BAFAD=2020-11-10,CAMB-1BADEF=2020-11-12,CAMB-1BAE46=2020-11-09,CAMB-1BA9CD=2020-11-12,CAMC-BC08EB=2020-11-22,CAMB-1B9CB6=2020-11-06,CAMB-1B9D1D=2020-11-06,CAMB-1BBA05=2020-11-13,CAMB-1BAAE8=2020-11-12,CAMB-1BAA42=2020-11-12,CAMC-B34AEC=2020-11-05,CAMC-B51E1A=2020-11-08,CAMB-1BB003=2020-11-10,CAMB-1B9FDB=2020-11-06,CAMB-1BAEEC=2020-11-10,CAMB-1B9CE3=2020-11-05,CAMB-1BBC96=2020-11-13,CAMB-1BB1D3=2020-11-10,CAMB-1BBC1E=2020-11-13,CAMB-1BAE0A=2020-11-12,CAMB-1BBB11=2020-11-13,CAMB-1BBEAF=2020-11-13,CAMB-1BBDEE=2020-11-13,CAMB-1BB20D=2020-11-09,CAMB-1BBDFD=2020-11-17,CAMB-1BBC78=2020-11-13,CAMB-1BAC4C=2020-11-11,CAMB-1BAF07=2020-11-10,CAMB-1BB21C=2020-11-10,CAMB-1BA06E=2020-11-03,CAMB-1BBE18=2020-11-19,CAMB-1B9EA1=2020-11-04,CAMC-B79BD9=2020-11-12,CAMB-1BA101=2020-11-06,CAMB-1BAEBF=2020-11-10,CAMB-1BAB5E=2020-11-11,CAMB-1BA963=2020-11-12,CAMB-1BAB8B=2020-11-12,CAMB-1BACC4=2020-11-11,CAMB-1BA040=2020-11-03,CAMB-1BBE36=2020-11-17,CAMB-1B9F9F=2020-11-06,CAMB-1BB2D0=2020-11-12,CAMB-1BB0E5=2020-11-09,CAMB-1BAFDA=2020-11-10,CAMB-1B9D3B=2020-11-06,CAMB-1BAE91=2020-11-10,CAMB-1BB13D=2020-11-10,CAMC-B78DE3=2020-11-12,CAMB-1BBE90=2020-11-17,CAMB-1BBDDF=2020-11-17,CAMB-1B9D2C=2020-11-05,CAMB-1BAA24=2020-11-12,CAMB-1BBBC6=2020-11-16,CAMB-1BBB6C=2020-11-17,CAMB-1BB100=2020-11-09,CAMB-1BAD0D=2020-11-11,CAMB-1BAD85=2020-11-12,CAMB-1B9CD4=2020-11-06,CAMB-1BAD49=2020-11-11,CAMB-1BAACA=2020-11-12,CAMB-1BB2B2=2020-11-12,CAMB-1BABE5=2020-11-11,CAMB-1BB021=2020-11-10,CAMB-1BBAF6=2020-11-13,CAMC-B22911=2020-11-01,CAMB-1BAA8E=2020-11-12,CAMB-1BBC4B=2020-11-16,CAMC-B99A9A=2020-11-15,CAMB-1BADA3=2020-11-12,CAMB-1BAD76=2020-11-11,CAMB-1BA9FA=2020-11-11,CAMB-1BAA9D=2020-11-11,CAMB-1BAC3D=2020-11-11,CAMB-1BAF16=2020-11-10,CAMB-1BAFBC=2020-11-10,CAMB-1BAA51=2020-11-11,CAMB-1BAE28=2020-11-09,CAMB-1BA031=2020-11-06,CAMB-1BBBF3=2020-11-13,CAMC-B543DC=2020-11-08,CAMB-1B9FF9=2020-11-06,CAMB-1B9DC2=2020-11-04,CAMB-1BAE73=2020-11-10,CAMB-1BA918=2020-11-11,CAMB-1BAEDD=2020-11-10,CAMB-1BBE45=2020-11-13,CAMB-1B9041=2020-10-29,CAMB-1B9E29=2020-11-04,CAMC-B98E53=2020-11-15,CAMB-1BBCA5=2020-11-18,CAMB-1BAFCB=2020-11-10,CAMB-1BAEA0=2020-11-10,CAMB-1BBBB7=2020-11-19,CAMB-1BBDC0=2020-11-13,CAMB-1BBE54=2020-11-17,CAMB-1BB08B=2020-11-10,CAMB-1BACF1=2020-11-11,CAMB-1BAB9A=2020-11-11,CAMC-B78C13=2020-11-12,CAMB-1BBD75=2020-11-17,CAMB-1BB0A9=2020-11-10,CAMB-1BBD57=2020-11-17,CAMB-1BBDB1=2020-11-17,CAMB-1BBE72=2020-11-17,CAMB-1BC943=2020-11-21,CAMB-1BC925=2020-11-24,CAMB-1BAF25=2020-11-10,CAMB-1BAC6A=2020-11-11,CAMB-1BADD0=2020-11-11,CAMC-B543CD=2020-11-08,CAMB-1BB1A6=2020-11-09,CAMB-1BAF70=2020-11-10,CAMB-1BAB12=2020-11-11,CAMB-1BA954=2020-11-11,CAMB-1BBD93=2020-11-17,CAMB-1BA945=2020-11-12,CAMB-1B9DE0=2020-11-04,CAMB-1BABA9=2020-11-12,CAMB-1BB1B5=2020-11-10,CAMB-1BB1E2=2020-11-09,CAMB-1BB012=2020-11-10,CAMB-1BAF52=2020-11-10,CAMB-1BA972=2020-11-11,CAMC-B98E62=2020-11-15,CAMB-1BAD67=2020-11-12,CAMB-1BAF61=2020-11-10,CAMB-1BBDA2=2020-11-13,CAMB-1BB22B=2020-11-09,CAMB-1BBB99=2020-11-18,CAMB-1BBE81=2020-11-13,CAMB-1BB04F=2020-11-10,CAMB-1BB267=2020-11-09,CAMB-1BB0F4=2020-11-10,CAMC-B53276=2020-11-08,CAMB-1BBC87=2020-11-16,CAMB-1BC961=2020-11-24,CAMB-1BB9CC=2020-11-16,CAMB-1BAC88=2020-11-11,CAMB-1BBBA8=2020-11-17,CAMB-1BBD0C=2020-11-13,CAMB-1BB294=2020-11-12,CAMB-1BBCE1=2020-11-13,CAMB-1BB276=2020-11-12,CAMB-1BAA60=2020-11-12,CAMB-1BBC5A=2020-11-13,CAMB-1BBC0F=2020-11-16,CAMB-1BB23A=2020-11-12,CAMB-1BAC2E=2020-11-11,CAMB-1BAB21=2020-11-12,CAMB-1BBD66=2020-11-13,CAMB-1BB0D6=2020-11-10,CAMB-1BA927=2020-11-12,CAMB-1BBB4E=2020-11-16,CAMB-1BBAD8=2020-11-13,CAMB-1BAA06=2020-11-12,CAMB-1BB12E=2020-11-09,CAMB-1BAC00=2020-11-11,CAMB-1BAF8F=2020-11-10,CAMB-1BB249=2020-11-09,CAMB-1BADC1=2020-11-12,CAMB-1BBCF0=2020-11-18,CAMB-1BBCC3=2020-11-13,CAMB-1BABC7=2020-11-12,CAMB-1BA981=2020-11-12,CAMB-1BAB6D=2020-11-12,CAMB-1BBBE4=2020-11-16,CAMB-1BAB03=2020-11-12,CAMB-1BACA6=2020-11-11,CAMB-1BAB4F=2020-11-12,CAMB-1BACE2=2020-11-11,CAMB-1BB285=2020-11-09,CAMB-1BBC2D=2020-11-16,CAMC-B7A6E6=2020-11-12,CAMB-1BAF34=2020-11-10,CAMB-1BAF9E=2020-11-10,CAMB-1BAD94=2020-11-11,CAMB-1BAE19=2020-11-10,CAMB-1BAE55=2020-11-10,CAMB-1BA9BE=2020-11-11,CAMB-1BAFF8=2020-11-10,CAMB-1BB0B8=2020-11-10,CAMB-1BAD1C=2020-11-11,CAMB-1BAA33=2020-11-11,CAMB-1BAD3A=2020-11-11,CAMB-1BAA7F=2020-11-11,CAMB-1BAEFB=2020-11-10,CAMB-1BAB30=2020-11-11,CAMB-1BAC79=2020-11-11,CAMB-1B8288=2020-10-22,CAMB-1B81B8=2020-10-19,CAMB-1B8051=2020-10-15,CAMB-1B918A=2020-10-28,CAMB-1B7E94=2020-10-14,CAMB-1B7FFB=2020-10-15,CAMB-1B807F=2020-10-15,CAMB-1B9199=2020-10-28,CAMB-1B7F19=2020-10-15,CAMB-1B7EB2=2020-10-14,CAMB-1B81E5=2020-10-22,CAMB-1B82A6=2020-10-22,CAMB-1B81A9=2020-10-23,CAMB-1B81F4=2020-10-19,CAMB-1B7D97=2020-10-14,CAMB-1B8455=2020-10-16,CAMB-1B8015=2020-10-15,CAMB-1B84A0=2020-10-19,CAMB-1B82F1=2020-10-19,CAMB-1B80CA=2020-10-23,CAMB-1B7D5B=2020-10-14,CAMB-1B9E74=2020-11-02,CAMB-1B915D=2020-10-28,CAMB-1B9D77=2020-10-30,CAMB-1B9005=2020-10-27,CAMB-1BA9EB=2020-11-12,CAMB-1B8024=2020-10-23,CAMB-1B7D2E=2020-10-13,CAMB-1B8349=2020-10-19,CAMB-1B9EDE=2020-11-02,CAMB-1B8525=2020-10-14,CAMB-1B90E7=2020-10-26,CAMB-1B9023=2020-10-29,CAMB-1B9F35=2020-11-06,CAMB-1B8FFA=2020-10-28,CAMB-1B8561=2020-10-14,CAMB-1B906F=2020-10-29,CAMB-1B7DF1=2020-10-14,CAMB-1B84FB=2020-10-13,CAMB-1B821F=2020-10-19,CAMB-1B818B=2020-10-23,CAMB-1B83A3=2020-10-19,CAMB-1B824C=2020-10-22,CAMB-1B83D0=2020-10-15,CAMB-1B9E1A=2020-11-02,CAMB-1BD5B7=2020-12-02,CAMB-1B90AB=2020-10-26,CAMB-1BA550=2020-11-14,CAMB-1B81C7=2020-10-23,CAMB-1B80F7=2020-10-15,CAMB-1B916C=2020-10-26,CAMB-1B8060=2020-10-23,CAMB-1B7F28=2020-10-13,CAMB-1BA07D=2020-10-30,CAMB-1BBC3C=2020-11-13,CAMB-1BA9AF=2020-11-12,CAMB-1BB06D=2020-11-10,CAMB-1BAFE9=2020-11-10,CAMB-1BB1F1=2020-11-10,CAMB-1BADB2=2020-11-11,CAMB-1BA0E6=2020-11-02,CAMB-1B907E=2020-10-28,CAMB-1B90C9=2020-10-26,CAMB-1B9E83=2020-11-04,CAMB-1B9032=2020-10-28,CAMB-1B914E=2020-10-26,CAMC-B0CDA8=2020-10-30,CAMB-1B816D=2020-10-23,CAMB-1B9111=2020-10-28,CAMB-1B9EFC=2020-11-06,CAMB-1B830D=2020-10-19,CAMB-1B814F=2020-10-23,CAMB-1B84EC=2020-10-19,CAMB-1B9EB0=2020-11-02,CAMB-1B8FCD=2020-10-28,CAMB-1B9014=2020-10-28,MILK-AC7733=2020-10-19,CAMB-1BB1C4=2020-11-09,CAMB-1B8385=2020-10-19,CAMB-1B9D95=2020-10-30,CAMB-1B7D79=2020-10-14,CAMB-1B9FCC=2020-11-03,CAMB-1B80D9=2020-10-15,CAMB-1B8297=2020-10-19,CAMB-1B8516=2020-10-13,CAMB-1B819A=2020-10-19,CAMB-1B7E1C=2020-10-14,CAMB-1B9FAE=2020-11-03,CAMB-1B823D=2020-10-19,CAMB-1B809D=2020-10-15,CAMB-1B808E=2020-10-23,CAMB-1B7F91=2020-10-15,CAMB-1B7E67=2020-10-13,CAMB-1B7FCE=2020-10-13,CAMB-1B7E2B=2020-10-13,CAMB-1B7F82=2020-10-13,CAMB-1B8279=2020-10-19,CAMB-1B8121=2020-10-23,CAMB-1B7F0A=2020-10-13,CAMB-1B917B=2020-10-28,CAMC-B217BE=2020-11-02,CAMC-B77458=2020-11-12,CAMC-B08C36=2020-10-30,CAMB-1B91C6=2020-10-27,UC00002529=2020-10-09,CAMC-BC06E1=2020-11-22,CAMB-1B9F62=2020-11-03,CAMB-1BA022=2020-11-03,CAMB-1BB14C=2020-11-09,CAMB-1B9E92=2020-11-02,CAMB-1B9F08=2020-11-04,CAMB-1B9D86=2020-11-05,CAMB-1BD4BA=2020-11-30,CAMB-1B9D0E=2020-11-05,CAMB-1BA004=2020-11-03,CAMB-1BA05F=2020-11-06,CAMB-1BA013=2020-11-06,CAMB-1B9E65=2020-11-04,CAMC-B09B56=2020-10-31,CAMB-1B9E56=2020-11-02,CAMB-1BAF43=2020-11-10,CAMB-1B9DB3=2020-10-30,CAMB-1BAB7C=2020-11-11,CAMB-1BAE37=2020-11-10,CAMB-1BB179=2020-11-10,CAMB-1BAE64=2020-11-10,CAMB-1B9DFF=2020-11-04,CAMB-1BBB8A=2020-11-17,CAMB-1BBB7B=2020-11-17,CAMB-1BA875=2020-11-10,CAMB-1BB15B=2020-11-10,CAMB-1B9DD1=2020-10-30,CAMB-1BADFE=2020-11-10,CAMB-1BAD58=2020-11-11,CAMB-1BB2FE=2020-11-12,CAMB-1BB05E=2020-11-10,CAMB-1BAA15=2020-11-11,CAMB-1BB0C7=2020-11-10,CAMC-B7B427=2020-11-13,CAMC-B09AE0=2020-10-31,CAMB-1B9F26=2020-11-03,CAMB-1B8FEB=2020-10-27,CAMB-1B9ECF=2020-11-04,CAMB-1BA0C8=2020-11-02,CAMB-1B9102=2020-10-26,CAMB-1B91A8=2020-10-28,CAMB-1B90BA=2020-10-28,MILK-ACE796=2020-10-21,CAMB-1B90D8=2020-10-28,CAMC-B1FF33=2020-11-01,CAMB-1B913F=2020-10-28,CAMB-1B9D68=2020-11-05,CAMB-1B80AC=2020-10-23,CAMB-1B8FBE=2020-10-28,CAMB-1B908D=2020-10-29,CAMB-1B9050=2020-10-28,CAMB-1B8FDC=2020-10-28,CAMB-1B909C=2020-10-28,CAMC-B08CFA=2020-10-30,UC00000204=2020-10-08,UC00002669=2020-10-09">
+                    <taxa id="TaxonSet.uni_cluster1" spec="TaxonSet">
+                        <alignment idref="uni_cluster1"/>
+                    </taxa>
+                </trait>
+                <taxonset idref="TaxonSet.uni_cluster1"/>
+            </tree>
+                                    
+                    
+            <!-- Site and clock model parameters -->
+            <parameter id="clockRate.c:all_clusters" spec="parameter.RealParameter" name="stateNode">8E-4</parameter>
+            <parameter id="freqParameter.s:all_clusters" spec="parameter.RealParameter" dimension="4" lower="0.0" name="stateNode" upper="1.0">0.25</parameter>
+            <parameter id="gammaShape.s:all_clusters" name="stateNode">1.0</parameter>
+			<parameter id="rateAC.s:all_clusters" lower="0.0" name="stateNode">1.0</parameter>
+			<parameter id="rateAG.s:all_clusters" lower="0.0" name="stateNode">1.0</parameter>
+			<parameter id="rateAT.s:all_clusters" lower="0.0" name="stateNode">1.0</parameter>
+			<parameter id="rateCG.s:all_clusters" lower="0.0" name="stateNode">1.0</parameter>
+			<parameter id="rateGT.s:all_clusters" lower="0.0" name="stateNode">1.0</parameter>
+                    
+            <!-- Shared BDSKY parameters -->
+			<parameter id="becomeUninfectiousRate_BDSKY_Serial.t:all_clusters" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="Infinity">1.0</parameter>
+
+            <!-- Origin parameters -->
+            <parameter id="origin_BDSKY_Serial.t:uni_cluster1" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1">1</parameter>
+
+            <!-- Re parameters -->            
+            <parameter id="reproductiveNumber_BDSKY_Serial.t:uni_cluster1_" spec="parameter.RealParameter" dimension="20" lower="0.0" name="stateNode" upper="Infinity">1.5</parameter>
+
+            <!-- Sampling proportion parameters -->
+            <parameter id="samplingProportion_BDSKY_Serial.t:uni_cluster1_" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01</parameter>                   
+                                    
+        </state>
+            
+        <!-- Begin initial trees -->
+	        <init id="RandomTree.t:uni_cluster1" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:uni_cluster1" taxa="@uni_cluster1">
+           		<populationModel spec="ExponentialGrowth" popSize="0.5" growthRate="1"/>
+	        </init>	       
+        <!-- End initial trees -->
+            
+        
+            
+        <distribution id="posterior" spec="util.CompoundDistribution">
+                    
+            <!-- Start prior -->
+            <distribution id="prior" spec="util.CompoundDistribution">
+                            
+                <!-- Cluster 1 treeprior (2020-10-08 - 2020-12-02) -->
+                <distribution 	id 					  	= "BDSKY_Serial.t:uni_cluster1" 
+                	 			spec 					= "beast.evolution.speciation.BirthDeathSkylineModel" 
+                	 			becomeUninfectiousRate  = "@becomeUninfectiousRate_BDSKY_Serial.t:all_clusters" 
+                	 			origin 					= "@origin_BDSKY_Serial.t:uni_cluster1" 
+                	 			reproductiveNumber 		= "@reproductiveNumber_BDSKY_Serial.t:uni_cluster1_" 
+                	 			samplingProportion 		= "@samplingProportion_BDSKY_Serial.t:uni_cluster1_" 
+                	 			tree 					= "@Tree.t:uni_cluster1">
+					<!--samplingRateChangeTimes spec="TreeSlicer" id="SamplingTreeSlice.s:uni_cluster1" tree="@Tree.t:uni_cluster1" dimension="2" to="oldestsample" inclusive="true"/-->
+					<samplingRateChangeTimes spec="TreeDateSlicer" id="SamplingTreeSlice.s:uni_cluster1" tree="@Tree.t:uni_cluster1">
+                    	<dates spec="DateParser" dates="2020-10-05 2020-10-12 2020-10-19 2020-10-26 2020-11-02 2020-11-09 2020-11-16 2020-11-23 2020-11-30" format="yyyy-MM-dd"/>
+                	</samplingRateChangeTimes>
+                	<reverseTimeArrays spec="beast.core.parameter.BooleanParameter" value="true false true false false"/>	
+	 			</distribution>
+               
+
+                <!-- Become uninfectious rate prior -->
+                <prior id="becomeUninfectiousRatePrior_BDSKY_Serial.t:all_clusters" name="distribution" x="@becomeUninfectiousRate_BDSKY_Serial.t:all_clusters">
+                    <LogNormal id="LogNormalDistributionModel.9" meanInRealSpace="true" name="distr" M="48.7" S="0.25"/>                       
+                </prior>
+                                                    
+				<!-- Re priors -->                      
+                <prior id="reproductiveNumberPrior_BDSKY_Serial.t:uni_cluster1" name="distribution" x="@reproductiveNumber_BDSKY_Serial.t:uni_cluster1_">                                    
+                    <LogNormal id="LogNormalDistributionModel.Re" name="distr" M="0.0" S="1.0"/>                    	                    
+                </prior>                            
+                
+				<!-- Sampling proportion priors -->
+                <prior id="samplingProportionPrior_BDSKY_Serial.t:uni_cluster1" name="distribution" x="@samplingProportionSlice.s:uni_cluster1">                                    
+                    <Beta id="Beta.sampling" name="distr" alpha="5" beta="5"/>                                                                    
+                </prior>                            
+               
+                <!-- Origin priors -->
+                <prior id="originPrior_BDSKY_Serial.t:uni_cluster1" name="distribution" x="@origin_BDSKY_Serial.t:uni_cluster1">                                    
+                    <!--Uniform id="Uniform.origin" name="distr" upper="Infinity"/-->     
+                    <LogNormal id="LogNormal.origin" name="distr" M="0.2" S="0.5" offset="0.0" meanInRealSpace="true"/>                           
+                </prior>                                           
+
+
+                <!-- Site and clock model priors -->
+                <prior id="ClockPrior.c:all_clusters" name="distribution" x="@clockRate.c:all_clusters">
+                    <!--Uniform id="Uniform.0" name="distr" upper="Infinity"/-->
+                	<LogNormal name="distr" meanInRealSpace="true" M="8E-4" S="0.1"/>
+                </prior>
+                            
+                <prior id="FrequenciesPrior.s:all_clusters" name="distribution" x="@freqParameter.s:all_clusters">
+                    <Uniform id="Uniform.15" name="distr"/>
+                </prior>
+
+				<prior id="GammaShapePrior.s:all_clusters" name="distribution" x="@gammaShape.s:all_clusters">
+					<Exponential id="Exponential.0" name="distr">
+						<parameter id="RealParameter.0" estimate="false" name="mean">1.0</parameter>
+					</Exponential>
+				</prior>
+                            
+                <prior id="RateACPrior.s:all_clusters" name="distribution" x="@rateAC.s:all_clusters">
+	                <Gamma id="Gamma.0" name="distr">
+	                    <parameter id="RealParameter.1" estimate="false" name="alpha">0.05</parameter>
+	                    <parameter id="RealParameter.2" estimate="false" name="beta">10.0</parameter>
+	                </Gamma>
+	            </prior>
+	            <prior id="RateAGPrior.s:all_clusters" name="distribution" x="@rateAG.s:all_clusters">
+	                <Gamma id="Gamma.1" name="distr">
+	                    <parameter id="RealParameter.3" estimate="false" name="alpha">0.05</parameter>
+	                    <parameter id="RealParameter.4" estimate="false" name="beta">20.0</parameter>
+	                </Gamma>
+	            </prior>
+	            <prior id="RateATPrior.s:all_clusters" name="distribution" x="@rateAT.s:all_clusters">
+	                <Gamma id="Gamma.2" name="distr">
+	                    <parameter id="RealParameter.5" estimate="false" name="alpha">0.05</parameter>
+	                    <parameter id="RealParameter.6" estimate="false" name="beta">10.0</parameter>
+	                </Gamma>
+	            </prior>
+	            <prior id="RateCGPrior.s:all_clusters" name="distribution" x="@rateCG.s:all_clusters">
+	                <Gamma id="Gamma.3" name="distr">
+	                    <parameter id="RealParameter.7" estimate="false" name="alpha">0.05</parameter>
+	                    <parameter id="RealParameter.8" estimate="false" name="beta">10.0</parameter>
+	                </Gamma>
+	            </prior>
+	            <prior id="RateGTPrior.s:all_clusters" name="distribution" x="@rateGT.s:all_clusters">
+	                <Gamma id="Gamma.5" name="distr">
+	                    <parameter id="RealParameter.11" estimate="false" name="alpha">0.05</parameter>
+	                    <parameter id="RealParameter.12" estimate="false" name="beta">10.0</parameter>
+	                </Gamma>
+               	</prior>
+                        
+            </distribution>                    
+            <!-- End prior -->
+
+            <!-- Begin likelihood -->
+            <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+                            
+                <distribution id="treeLikelihood.uni_cluster1" spec="ThreadedTreeLikelihood" data="@uni_cluster1" tree="@Tree.t:uni_cluster1">
+                    
+					<siteModel id="SiteModel.s:all_clusters" spec="SiteModel" gammaCategoryCount="4" shape="@gammaShape.s:all_clusters">
+                    	<parameter id="mutationRate.s:all_clusters" estimate="false" name="mutationRate">1.0</parameter>
+                    	<parameter id="proportionInvariant.s:all_clusters" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+	                    <substModel id="gtr.s:all_clusters" spec="GTR" 
+	                    			rateAC="@rateAC.s:all_clusters" 
+	                    			rateAG="@rateAG.s:all_clusters" 
+	                    			rateAT="@rateAT.s:all_clusters" 
+	                    			rateCG="@rateCG.s:all_clusters" 
+	                    			rateGT="@rateGT.s:all_clusters">
+	                        <parameter id="rateCT.s:all_clusters" estimate="false" lower="0.0" name="rateCT">1.0</parameter>
+                            <frequencies id="estimatedFreqs.s:all_clusters" spec="Frequencies" frequencies="@freqParameter.s:all_clusters"/>
+	                    </substModel>
+	                </siteModel>
+                                    
+                    <branchRateModel id="StrictClock.c:all_clusters" spec="beast.evolution.branchratemodel.StrictClockModel" clock.rate="@clockRate.c:all_clusters"/>
+                </distribution>
+   
+                        
+            </distribution>
+           	<!-- End likelihood -->
+                
+        </distribution>
+            
+
+        <!-- Site model operators -->
+        <operator id="FrequenciesExchanger.s:all_clusters" spec="DeltaExchangeOperator" delta="0.01" weight="0.1">
+            <parameter idref="freqParameter.s:all_clusters"/>
+        </operator>
+
+        <operator id="gammaShapeScaler.s:all_clusters" spec="ScaleOperator" parameter="@gammaShape.s:all_clusters" scaleFactor="0.5" weight="0.1"/>
+
+        <operator id="RateACScaler.s:all_clusters" spec="ScaleOperator" parameter="@rateAC.s:all_clusters" scaleFactor="0.5" weight="0.1"/>
+		<operator id="RateAGScaler.s:all_clusters" spec="ScaleOperator" parameter="@rateAG.s:all_clusters" scaleFactor="0.5" weight="0.1"/>
+		<operator id="RateATScaler.s:all_clusters" spec="ScaleOperator" parameter="@rateAT.s:all_clusters" scaleFactor="0.5" weight="0.1"/>
+		<operator id="RateCGScaler.s:all_clusters" spec="ScaleOperator" parameter="@rateCG.s:all_clusters" scaleFactor="0.5" weight="0.1"/>
+		<operator id="RateGTScaler.s:all_clusters" spec="ScaleOperator" parameter="@rateGT.s:all_clusters" scaleFactor="0.5" weight="0.1"/>
+
+
+        <!-- Clock model operators -->
+        <operator id="StrictClockRateScaler.c:all_clusters" spec="ScaleOperator" parameter="@clockRate.c:all_clusters" scaleFactor="0.75" weight="3.0"/>
+            
+        <operator id="strictClockUpDownOperator.c:uni_cluster1" spec="UpDownOperator" scaleFactor="0.75" weight="3.0">
+            <up idref="clockRate.c:all_clusters"/>
+            <down idref="Tree.t:uni_cluster1"/>
+        </operator>
+                 
+		<!-- Cluster 1 tree operators -->            
+		<operator id="BDSKY_SerialTreeScaler.t:uni_cluster1" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:uni_cluster1" weight="3.0"/>
+        <operator id="BDSKY_SerialTreeRootScaler.t:uni_cluster1" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:uni_cluster1" weight="3.0"/>
+        <operator id="BDSKY_SerialUniformOperator.t:uni_cluster1" spec="Uniform" tree="@Tree.t:uni_cluster1" weight="30.0"/>
+        <operator id="BDSKY_SerialSubtreeSlide.t:uni_cluster1" spec="SubtreeSlide" tree="@Tree.t:uni_cluster1" weight="15.0"/>
+        <operator id="BDSKY_SerialNarrow.t:uni_cluster1" spec="Exchange" tree="@Tree.t:uni_cluster1" weight="15.0"/>
+        <operator id="BDSKY_SerialWide.t:uni_cluster1" spec="Exchange" isNarrow="false" tree="@Tree.t:uni_cluster1" weight="3.0"/>
+        <operator id="BDSKY_SerialWilsonBalding.t:uni_cluster1" spec="WilsonBalding" tree="@Tree.t:uni_cluster1" weight="3.0"/>
+
+
+        <!-- Becoming uninfectious rate operators -->
+		<operator id="becomeUninfectiousRateScaler_BDSKY_Serial.t:all_clusters" spec="ScaleOperator" parameter="@becomeUninfectiousRate_BDSKY_Serial.t:all_clusters" scaleFactor="0.75" weight="2.0"/>
+        
+		<!-- Re operators -->
+        <operator id="reproductiveNumberScaler_BDSKY_Serial.t:uni_cluster1" spec="ScaleOperator" parameter="@reproductiveNumber_BDSKY_Serial.t:uni_cluster1_" scaleFactor="0.75" weight="10.0"/>
+       
+		<!-- Treeprior updown operators --> 
+        <operator id="updownBD_BDSKY_Serial.t:uni_cluster1" spec="UpDownOperator" scaleFactor="0.75" weight="2.0">
+            <up idref="reproductiveNumber_BDSKY_Serial.t:uni_cluster1_"/>
+            <down idref="becomeUninfectiousRate_BDSKY_Serial.t:all_clusters"/>
+        </operator>
+               
+        <!-- Sampling proportion operators -->    
+        <operator id="samplingProportionScaler_BDSKY_Serial.t:uni_cluster1" spec="ScaleOperator" parameter="@samplingProportion_BDSKY_Serial.t:uni_cluster1_" scaleFactor="0.75" weight="10.0"/> 
+        
+		<!-- Origin operators -->    
+        <operator id="origScaler_BDSKY_Serial.t:uni_cluster1" spec="ScaleOperator" parameter="@origin_BDSKY_Serial.t:uni_cluster1" scaleFactor="0.75" weight="1.0"/>
+    
+        
+            
+
+            
+        <logger id="tracelog" spec="Logger" fileName="output/$(filebase)_$(seed).log" logEvery="20000" model="@posterior" sanitiseHeaders="true" sort="smart">
+                    
+            <log idref="posterior"/>
+            <log idref="likelihood"/>
+            <log idref="prior"/>
+		   
+            <log idref="treeLikelihood.uni_cluster1"/>
+            <log id="TreeHeight.t:uni_cluster1" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:uni_cluster1"/>
+
+            <log idref="clockRate.c:all_clusters"/>                    
+
+            <log idref="freqParameter.s:all_clusters"/>
+			<log idref="gammaShape.s:all_clusters"/>
+			<log idref="rateAC.s:all_clusters"/>
+			<log idref="rateAG.s:all_clusters"/>
+			<log idref="rateAT.s:all_clusters"/>
+			<log idref="rateCG.s:all_clusters"/>
+			<log idref="rateGT.s:all_clusters"/>
+
+            <log idref="becomeUninfectiousRate_BDSKY_Serial.t:all_clusters"/>            
+                    
+            <log idref="BDSKY_Serial.t:uni_cluster1"/>
+            <log idref="origin_BDSKY_Serial.t:uni_cluster1"/>
+            <log idref="reproductiveNumber_BDSKY_Serial.t:uni_cluster1_"/>
+            <log idref="samplingProportion_BDSKY_Serial.t:uni_cluster1_"/>
+            <log spec="TreeSliceDateLogger" treeSlice="@SamplingTreeSlice.s:uni_cluster1"/>            
+                   
+        </logger>
+            
+        <!-- Screen logger -->
+        <logger id="screenlog" spec="Logger" logEvery="200000">
+            <log idref="posterior"/>
+            <log idref="likelihood"/>
+            <log idref="prior"/>
+        </logger>
+            
+        <!-- Tree loggers -->
+        <logger id="treelog.t:uni_cluster1" spec="Logger" fileName="output/$(filebase)_$(tree)_$(seed).trees" logEvery="200000" mode="tree">
+            <log id="TreeWithMetaDataLogger.t:uni_cluster1" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:uni_cluster1"/>
+        </logger>
+                 
+        <operatorschedule id="OperatorSchedule" spec="OperatorSchedule"/>
+        
+    </run>
+    
+</beast>
