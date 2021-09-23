@@ -4,7 +4,7 @@
 
 ---
 
-This repository contains the publicly available metadata, configuration files used to generate the results presented in https://doi.org/10.1101/2020.10.23.20218446. 
+This repository contains the publicly available metadata, configuration files used to generate the results presented in https://doi.org/10.21203/rs.3.rs-520627/v1. 
 
 Note that because of the GISAID terms of use genomic sequences cannot be shared in this repository. Instead we make the ENA accessions available for all sequences we produced and make the GISAID accessions available for all sequences used in our analyses. 
 
