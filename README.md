@@ -5,9 +5,7 @@
 ---
 
 This repository contains the publicly available metadata, configuration files used to generate the results presented in https://doi.org/10.21203/rs.3.rs-520627/v1. 
-
-Note that because of the GISAID terms of use genomic sequences cannot be shared in this repository. Instead we make the ENA accessions available for all sequences we produced and make the GISAID accessions available for all sequences used in our analyses. 
-
+We make the ENA accessions available for all sequences we used. These sequences can also be found on the [COG-UK website](https://www.cogconsortium.uk).
 
 ## Abstract
 
