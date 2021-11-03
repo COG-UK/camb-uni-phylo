@@ -2,6 +2,8 @@
 
 **Dinesh Aggarwal**, **Ben Warne**, **Aminu S. Jahun**, **William Hamilton**, **Thomas Fieldman**, **Louis du Plessis**, **Verity Hill**, Beth Blane, Emmeline Watkins, Elizabeth Wright, Grant Hall, Catherine Ludden, Richard Myers, Myra Hosmillo, Yasmin Goodfellow, Malte L. Pinckert, Iliana Georgana, Rhys Izuagbe, Danielle Leek, Olisaeloka Nsonwu, Gareth Hughes, Simon Packer, Andrew J. Page, Marina Metaxaki, Stewart Fuller, Gillian Weale, Jon Holgate, Christopher A. Brown, The Cambridge Covid-19 testing Centre, University of Cambridge Asymptomatic COVID-19 Screening Programme Consortium, The COVID-19 Genomics UK (COG-UK) Consortium 15, Rob Howes, Duncan McFarlane, Gordon Dougan, Oliver G. Pybus, Daniela De Angelis, Patrick H. Maxwell, Sharon J. Peacock, **Michael Weekes**, **Chris Illingworth**, **Ewan M. Harrison**, **Nicholas J. Matheson**, **Ian G. Goodfellow**
 
+[![DOI](https://zenodo.org/badge/408776448.svg)](https://zenodo.org/badge/latestdoi/408776448)
+
 ---
 
 This repository contains the publicly available metadata, configuration files used to generate the results presented in https://doi.org/10.21203/rs.3.rs-520627/v1. 
